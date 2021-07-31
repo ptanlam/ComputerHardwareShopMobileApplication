@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Dimen Logo
+    <dimen name="width_logo">150dp</dimen>
+    <dimen name="height_logo">150dp</dimen>
+
+    // All width
+    <dimen name="width_100dp">100dp</dimen>
+    <dimen name="width_120dp">120dp</dimen>
+    <dimen name="width_300dp">300dp</dimen>
+    <dimen name="width_340dp">340dp</dimen>
+
+    // All height
+    <dimen name="height_60dp">60dp</dimen>
+    <dimen name="height_100dp">100dp</dimen>
+    <dimen name="height_120dp">120dp</dimen>
+
+    // All margin
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_35dp">35dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+
+    // All padding
+    <dimen name="padding_4dp">4dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_18dp">18dp</dimen>
+
+    // All size of text
+    <dimen name="size_14sp">14sp</dimen>
+    <dimen name="size_16sp">16sp</dimen>
+    <dimen name="size_20sp">20sp</dimen>
+    <dimen name="size_22sp">22sp</dimen>
+    <dimen name="size_32sp">32sp</dimen>
+
+
+
+</resources>

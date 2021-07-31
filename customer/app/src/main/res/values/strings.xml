@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">v3</string>
+
+    <!--  -->
+    <string name="title_home">Trang chủ</string>
+    <string name="title_categories">Danh mục</string>
+    <string name="title_personal">Cá nhân</string>
+
+    <string name="customer_email_hint">Email</string>
+    <string name="customer_pass_hint">Mật khẩu</string>
+    <string name="btn_login_txt">Đăng nhập</string>
+    <string name="register_txt">Đăng ký</string>
+    <string name="resend_verification_txt">Gửi lại mã xác thực</string>
+
+    <string name="menu_item_logout_txt">Đăng xuất</string>
+    <string name="menu_item_account_settings_txt">Cài đặt tài khoản</string>
+    <string name="fragment_categories">Danh mục</string>
+    <string name="fragment_login">Cá nhân</string>
+    <string name="register">Đăng ký</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+
+
+    <string name="signIn">đăng nhập</string>
+    <string name="signUp">đăng ký</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="log_out">Đăng xuất</string>
+    <string name="name">Tên người dùng</string>
+    <string name="phone">Số điện thoại</string>
+    <string name="title_cart">Giỏ hàng</string>
+    <string name="cart_purchase_btn_txt">Thanh toán</string>
+    <string name="cart_total_price_txt">Tổng tiền:</string>
+
+    <!-- Product Categories -->
+    <string-array name="product_categories">
+        <item>CPU - Bộ vi xử lý</item>
+        <item>GPU - Card màn hình</item>
+        <item>RAM - Bộ nhớ khả dụng</item>
+        <item>Mainboard - Bo mạch chủ</item>
+        <item>HD - Ổ cứng</item>
+        <item>PSU - Nguồn máy tính</item>
+        <item>CASE - Thùng máy</item>
+    </string-array>
+    <string name="accept">Chấp nhận</string>
+    <string name="turn_back">Quay lại</string>
+    <string name="title_info_invoice">Thông tin giỏ hàng</string>
+    <string name="title_info_customer">Thông tin khách hàng</string>
+    <string name="txt_currency">đ̲</string>
+    <string name="btn_order_requests_txt">Đơn hàng của bạn</string>
+    <string name="btn_view_details_txt">Chi tiết đơn hàng</string>
+    <string name="btn_add_to_cart_txt">Thêm vào giỏ hàng</string>
+
+    <string name="update">Cập nhật</string>
+    <string name="cancel">Hủy</string>
+    <string name="current_password">Mật khẩu hiện tại</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="confirm_new_password">Xác nhận mật khẩu mới</string>
+</resources>

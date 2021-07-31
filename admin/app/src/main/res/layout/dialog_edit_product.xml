@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/txt_catrgories"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/spinnerCategories"
+        app:layout_constraintStart_toStartOf="@+id/inputProductPriceLayout"
+        app:layout_constraintTop_toTopOf="@+id/spinnerCategories" />
+
+    <Spinner
+        android:id="@+id/spinnerCategories"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/inputProductPriceLayout"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/inputProductPriceLayout" />
+
+    <ImageView
+        android:id="@+id/ivItem"
+        android:layout_width="@dimen/height_100dp"
+        android:layout_height="@dimen/width_100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:scaleType="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputProductNameLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        app:boxBackgroundColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/ivItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivItem">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_product_name_hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputProductPriceLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:boxBackgroundColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="@+id/inputProductNameLayout"
+        app:layout_constraintStart_toStartOf="@+id/ivItem"
+        app:layout_constraintTop_toBottomOf="@+id/inputProductNameLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_product_price_hint"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputProductQuantityLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:boxBackgroundColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="@+id/inputProductNameLayout"
+        app:layout_constraintStart_toStartOf="@+id/inputProductPriceLayout"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerCategories">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputProductQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/input_product_quantity_hint"
+            android:inputType="number" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorLightBlue"
+        android:text="@string/cancel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnUpdateProduct"
+        app:layout_constraintTop_toTopOf="@+id/btnUpdateProduct" />
+
+    <Button
+        android:id="@+id/btnUpdateProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="@color/colorLightBlue"
+        android:text="@string/edit"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputProductQuantityLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

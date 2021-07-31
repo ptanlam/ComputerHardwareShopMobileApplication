@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_list_products"
+        android:icon="@drawable/ic_baseline_view_list_white_24"
+        android:title="@string/list_products" />
+    <item
+        android:id="@+id/navigation_add_product"
+        android:icon="@drawable/ic_baseline_insert_chart_white_24"
+        android:title="@string/add_product" />
+    <item
+        android:id="@+id/navigation_order_requests"
+        android:icon="@drawable/ic_baseline_done_outline_24"
+        android:title="@string/order_requests" />
+</menu>

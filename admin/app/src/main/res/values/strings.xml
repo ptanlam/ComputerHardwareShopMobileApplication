@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">adv1</string>
+
+    <!-- Login activity's string resource -->
+    <string name="input_staff_email_hint">Email</string>
+    <string name="input_staff_password_hint">Mật khẩu</string>
+    <string name="btn_login_txt">Đăng nhập</string>
+
+    <!-- Signed in activity option menu's string resource -->
+    <string name="option_menu_logout_txt">Đăng xuất</string>
+    <string name="option_menu_account_settings_txt">Cài đặt tài khoản</string>
+
+    <!-- Signed in activity bottom navigation menu's string resource -->
+    <string name="list_products">Danh sách sản phẩm</string>
+    <string name="add_product">Thêm sản phẩm</string>
+    <string name="order_requests">Đơn hàng chờ xử lý</string>
+
+    <!-- Add product's fragment's string resource -->
+    <string name="input_product_name_hint">Tên sản phẩm:</string>
+    <string name="input_product_price_hint">Giá sản phẩm:</string>
+    <string name="input_product_quantity_hint">Số lượng:</string>
+    <string name="btn_add_product_txt">Thêm sản phẩm</string>
+
+    <!--Information Product in Layout Item-->
+    <string name="product_quantity_one">60</string>
+    <string name="btn_edit">Sửa</string>
+    <string name="btn_remove">Xóa</string>
+
+    <!-- Dialogs' String Resource -->
+    <string name="ok">Đồng ý</string>
+    <string name="cancel">Hủy</string>
+    <string name="remove">Xóa sản phẩm ?</string>
+    <string name="edit">Cập nhật</string>
+    <string name="btn_choose_product_image_txt">Chọn hình ảnh</string>
+    <string name="input_image_name_hint">Tên của hình ảnh</string>
+    <string name="txt_catrgories">Loại sản phẩm</string>
+    <string name="txt_currency">đ̲</string>
+
+    <!-- Order items'string resources -->
+    <string name="btn_confirm_order_txt">Duyệt đơn</string>
+    <string name="btn_view_order_details_txt">Chi tiết</string>
+    <string name="btn_cancel_order_txt">Huỷ đơn</string>
+
+    <!-- Product Categories -->
+    <string-array name="product_categories">
+        <item>CPU - Bộ vi xử lý</item>
+        <item>GPU - Card màn hình</item>
+        <item>RAM - Bộ nhớ khả dụng</item>
+        <item>Mainboard - Bo mạch chủ</item>
+        <item>HD - Ổ cứng</item>
+        <item>PSU - Nguồn máy tính</item>
+        <item>CASE - Thùng máy</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
