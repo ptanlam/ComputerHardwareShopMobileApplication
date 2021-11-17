@@ -1,5 +1,2 @@
-# Junior project
+# Computer hardware shop mobile application
 
-## Computer hardware shop
-
-### Using Kotlin
